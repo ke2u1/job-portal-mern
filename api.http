@@ -1,0 +1,24 @@
+
+PUT http://localhost:8000/api/user/update-user/66ccb1ecb5e4de35acdbb80d
+Content-Type: application/json
+
+{
+  
+  
+    "profilePic": "https://via.placeholder.com/150",
+    "fullName": "John Doe",
+    "bio": "Passionate software developer with a knack for problem-solving.",
+    "contact": "john.doe@example.com",
+    "designation": "+91 91000 99999",
+    "address": "Gujarat, India",
+    "skills": ["JavaScript", "React", "Node.js", "CSS", "HTML"],
+    "projects": [
+      {
+        "title": "Project A",
+        "skills": ["MERN", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
+        "endDate": "2023-05-01T00:00:00.000Z",
+        "description": "Developed a full-stack web application using MERN stack."
+      }
+    ]
+  
+}

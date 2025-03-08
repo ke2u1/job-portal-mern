@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Set the base URL to the root of the project
+    "paths": {
+      "@/*": ["*"] // Define path aliasing; maps '@/' to the root directory
+    },
+    "target": "ES6", // Set the target ECMAScript version
+    "module": "CommonJS", // Set module system to CommonJS (default for Node.js)
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES Modules
+    "allowSyntheticDefaultImports": true // Allow default imports from modules with no default export
+  },
+  "include": ["**/*.js"], // Include all JavaScript files in the project
+  "exclude": ["node_modules"] // Exclude the node_modules folder
+}
